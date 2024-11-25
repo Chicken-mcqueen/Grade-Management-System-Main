@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+
         Panel1 = New Panel()
         Panel2 = New Panel()
         PictureBox7 = New PictureBox()
@@ -115,56 +116,7 @@ Partial Class Form1
         PictureBox7.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox7.TabIndex = 16
         PictureBox7.TabStop = False
-        ' 
-        ' PictureBox6
-        ' 
-        PictureBox6.Image = My.Resources.Screenshot_2024_11_20_161746_removebg_preview
-        PictureBox6.Location = New Point(8, 279)
-        PictureBox6.Name = "PictureBox6"
-        PictureBox6.Size = New Size(66, 66)
-        PictureBox6.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox6.TabIndex = 15
-        PictureBox6.TabStop = False
-        ' 
-        ' PictureBox5
-        ' 
-        PictureBox5.Image = My.AdminFolder.Resources.Screenshot_2024_11_20_161739_removebg_preview '
-        PictureBox5.Location = New Point(9, 211)
-        PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(66, 66)
-        PictureBox5.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox5.TabIndex = 14
-        PictureBox5.TabStop = False
-        ' 
-        ' PictureBox4
-        ' 
-        PictureBox4.Image = My.Resources.Resources.Screenshot_2024_11_20_161729_removebg_preview
-        PictureBox4.Location = New Point(8, 143)
-        PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(66, 66)
-        PictureBox4.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox4.TabIndex = 13
-        PictureBox4.TabStop = False
-        ' 
-        ' PictureBox3
-        ' 
-        PictureBox3.Image = My.Resources.Resources.Screenshot_2024_11_20_161711_removebg_preview
-        PictureBox3.Location = New Point(7, 75)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(66, 66)
-        PictureBox3.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox3.TabIndex = 12
-        PictureBox3.TabStop = False
-        ' 
-        ' PictureBox2
-        ' 
-        PictureBox2.Image = My.Resources.Resources.Screenshot_2024_11_20_161753_removebg_preview
-        PictureBox2.Location = New Point(8, 7)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(66, 66)
-        PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox2.TabIndex = 11
-        PictureBox2.TabStop = False
+
         ' 
         ' Button1
         ' 
